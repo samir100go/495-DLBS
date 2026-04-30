@@ -1,21 +1,21 @@
 # path:
 save_img_path: "./results_sampling/cogvideo/"
 
-video_length: 49
+video_length: 24 # from 49
 
 # sample config:
 seed: 0
 run_time: 1
 guidance_scale: 6.0
 ddim_eta: 1.0
-num_sampling_steps: 50
+num_sampling_steps: 40 # from 50
 
 num_beams: 1
 num_candidates: 1
 num_backtrack_steps: 1
-weights_list: [0.0, 0.25, 0.0, 0.5, 1.0] 
+weights_list: [0.6, 0.6, 0.0, 0.3, 1.0] 
 # subject_consistency, motion_smoothness, dynamic_degree, aesthetic_quality, overall_consistency
-
+# weights_list: [0.0, 0.25, 0.0, 0.5, 1.0] 
 text_prompt: [
-    'Macro close-up of two interlocking brass gears. The left gear rotates clockwise, and the right gear rotates counter-clockwise. The teeth must mesh perfectly without clipping, overlapping, or blending together.',
+    'Two interlocking brass gears. The left gear rotates clockwise, and the right gear rotates counter-clockwise. The teeth must mesh perfectly without clipping, overlapping, or blending together.',
 ]
