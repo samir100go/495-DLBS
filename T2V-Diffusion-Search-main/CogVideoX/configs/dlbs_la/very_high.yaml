@@ -1,7 +1,7 @@
 # path:
 save_img_path: "./results_sampling/cogvideo/"
 
-video_length: 24
+video_length: 32
 
 # sample config:
 seed: 0
@@ -17,6 +17,6 @@ weights_list: [0.0, 0.25, 0.0, 0.5, 1.0]
 # subject_consistency, motion_smoothness, dynamic_degree, aesthetic_quality, overall_consistency
 
 text_prompt: [
-    'Two interlocking brass gears. The left gear rotates clockwise, and the right gear rotates counter-clockwise. The teeth must mesh perfectly without clipping, overlapping, or blending together.',
+    'A boat hits a big wave and flips, landing upside down.',
 ]
 # 'A giraffe navigating a city during a robot uprising, with quick cuts showing chaotic battles, explosions, and futuristic technology in a high-stakes escape scenario.'
