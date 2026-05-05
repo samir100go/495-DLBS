@@ -1,7 +1,7 @@
 # path:
 save_img_path: "./results_sampling/cogvideo/"
 
-video_length: 32
+video_length: 48
 
 # sample config:
 seed: 0
