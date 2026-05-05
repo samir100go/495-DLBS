@@ -1,4 +1,7 @@
 import torch
+import typing
+if hasattr(torch.serialization, "add_safe_globals"):
+    torch.serialization.add_safe_globals([typing.OrderedDict])
 import os
 from vbench import VBench
 from vbench.distributed import dist_init, print0
